@@ -1,31 +1,42 @@
 body {
 	background-color: #FF8100;
 	text-align: center;
-	width: 750px;
+	width: 800px;
 	margin-left:auto;
 	margin-right:auto;
 }
 
-#nav {
-	width:750px;
+section {
+	width: 440px;
+	float: left;
+	margin: 30px;
+}
+
+aside {
+	float: left;
+	width: 300px;
+}
+
+header {
+	width:800px;
 	height: 75px;
 	margin:0;
 	padding:0;
 	background-color: #A65400;
 }
 
-#nav li {
+header li {
 	list-style: none;
 	float:left;
 	display: block;
 	height: 35px;
 	margin: 13px 8px 13px 8px;
-	padding: 9px 28px 9px 28px;
+	padding: 9px 34px 9px 34px;
 	text-align:center;
 	border:1px solid #000;
 }
 
-#nav li a {
+header li a {
 	font-size: 32px;
 	white-space:pre-line;
 }
@@ -49,15 +60,20 @@ img {
 	box-shadow: 10px 10px 5px #111111;
 }
 
-#sites ul {
+footer {
+	clear: both;
+	border-top: 1px solid #e3e3e3;
+}
+
+footer ul {
 	list-style: none;
 }
 
-#sites li a ul {
+footer li a ul {
 	display:block;
 }
 
-#sites li a {
+footer li a {
 	padding: 5px;
 	margin:5px 67px 10px 67px;
 	border: 3px solid #000000;
