@@ -1,0 +1,84 @@
+body {
+	background-color: #FF8100;
+	text-align: center;
+	width: 800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+section {
+	width: 440px;
+	float: left;
+	margin: 30px;
+}
+
+aside {
+	float: left;
+	width: 300px;
+}
+
+header {
+	width:800px;
+	height: 75px;
+	margin:0;
+	padding:0;
+	background-color: #A65400;
+}
+
+header li {
+	list-style: none;
+	float:left;
+	display: block;
+	height: 35px;
+	margin: 13px 8px 13px 0px;
+	padding: 9px 10px 9px 10px;
+	text-align:center;
+	border:1px solid #000;
+}
+
+header li a {
+	font-size: 30px;
+	white-space:pre-line;
+}
+
+h1 {
+	text-decoration: underline;
+	font-family:arial, sans-serif;
+	text-shadow: 0.08em 0.08em 10px #333;
+}
+
+#words {
+	font: italic 1em Georgia, Times, serif;
+}
+
+h2 {
+	text-decoration: underline;
+	text-shadow: 0 0 25px #333;
+}
+	
+img {
+	box-shadow: 10px 10px 5px #111111;
+}
+
+footer {
+	clear: both;
+	border-top: 1px solid #e3e3e3;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer li a ul {
+	display:block;
+}
+
+footer li a {
+	padding: 5px;
+	margin:5px 67px 10px 67px;
+	border: 3px solid #000000;
+	float:left;
+	font-size:24px;
+	white-space:pre-line;
+	text-align:center;
+}
