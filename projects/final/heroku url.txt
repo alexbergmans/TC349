@@ -1,2 +1,0 @@
-url
-http://intense-inlet-3494.herokuapp.com/
